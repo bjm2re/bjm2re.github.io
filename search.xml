@@ -35,32 +35,6 @@
       </tags>
   </entry>
   <entry>
-    <title>test</title>
-    <url>/post/d87f7e0c.html</url>
-    <content><![CDATA[<p>test</p>
-]]></content>
-      <categories>
-        <category>轻小说</category>
-      </categories>
-      <tags>
-        <tag>记录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>帝逝篇</title>
-    <url>/post/24cdb9c5.html</url>
-    <content><![CDATA[<p>TODO</p>
-<p><img src="/../images/%E5%B8%9D%E9%80%9D%E7%AF%87/image-20250105125222848.png" alt="image-20250105125222848"></p>
-]]></content>
-      <categories>
-        <category>人物志</category>
-      </categories>
-      <tags>
-        <tag>记录</tag>
-        <tag>二次元</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>睦睦篇</title>
     <url>/post/9499413a.html</url>
     <content><![CDATA[<p>TODO</p>
@@ -72,6 +46,18 @@
         <tag>记录</tag>
         <tag>我想被爱</tag>
         <tag>手冲哥</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/post/d87f7e0c.html</url>
+    <content><![CDATA[<p>test</p>
+]]></content>
+      <categories>
+        <category>轻小说</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
       </tags>
   </entry>
   <entry>
@@ -90,6 +76,20 @@
         <tag>相亲</tag>
         <tag>婚恋</tag>
         <tag>代购</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>帝逝篇</title>
+    <url>/post/24cdb9c5.html</url>
+    <content><![CDATA[<p>TODO</p>
+<p><img src="/../images/%E5%B8%9D%E9%80%9D%E7%AF%87/image-20250105125222848.png" alt="image-20250105125222848"></p>
+]]></content>
+      <categories>
+        <category>人物志</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>二次元</tag>
       </tags>
   </entry>
 </search>
