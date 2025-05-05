@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>帝逝篇</title>
-    <url>/post/24cdb9c5.html</url>
-    <content><![CDATA[<p>TODO</p>
-<p><img src="/../images/%E5%B8%9D%E9%80%9D%E7%AF%87/image-20250105125222848.png" alt="image-20250105125222848"></p>
+    <title>写在前面</title>
+    <url>/post/4a17b156.html</url>
+    <content><![CDATA[<p>记录群友怪话.jpg</p>
 ]]></content>
       <categories>
-        <category>人物志</category>
+        <category>杂谈</category>
       </categories>
       <tags>
-        <tag>记录</tag>
-        <tag>二次元</tag>
+        <tag>others</tag>
+        <tag>test</tag>
       </tags>
   </entry>
   <entry>
@@ -29,23 +28,36 @@
       </categories>
       <tags>
         <tag>记录</tag>
-        <tag>二次元</tag>
         <tag>哥布林</tag>
         <tag>富哥</tag>
+        <tag>二次元</tag>
         <tag>线虫</tag>
       </tags>
   </entry>
   <entry>
-    <title>写在前面</title>
-    <url>/post/4a17b156.html</url>
-    <content><![CDATA[<p>记录群友怪话.jpg</p>
+    <title>test</title>
+    <url>/post/d87f7e0c.html</url>
+    <content><![CDATA[<p>test</p>
 ]]></content>
       <categories>
-        <category>杂谈</category>
+        <category>轻小说</category>
       </categories>
       <tags>
-        <tag>others</tag>
-        <tag>test</tag>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>帝逝篇</title>
+    <url>/post/24cdb9c5.html</url>
+    <content><![CDATA[<p>TODO</p>
+<p><img src="/../images/%E5%B8%9D%E9%80%9D%E7%AF%87/image-20250105125222848.png" alt="image-20250105125222848"></p>
+]]></content>
+      <categories>
+        <category>人物志</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>二次元</tag>
       </tags>
   </entry>
   <entry>
