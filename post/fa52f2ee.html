@@ -1,0 +1,237 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>团建总结 | 互联网观察日记</title><meta name="author" content="且慢"><meta name="copyright" content="且慢"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta name="description" content="这周五大组搞了个团建，虽然我没来多久，但也混了过去，免费过去玩，挺爽。虽然是团建，但并非是完全去玩，借用一位正职的话，“团建也是工作的一部分”，大致总结下团建后我的收获吧 酒桌文化赫赫，团建里必不可少的环节肯定是敬酒吧，这可是太经典了。本来我只是大家一起喝我也喝，后面有在想要不要像一些正职也敬一圈，结果也雀实这样干了。就那种罐装哈尔滨啤酒，反正就是喝，对着正职一个个敬。群里有头像和名字，有些也认得">
+<meta property="og:type" content="article">
+<meta property="og:title" content="团建总结">
+<meta property="og:url" content="https://bjm2re.github.io/post/fa52f2ee.html">
+<meta property="og:site_name" content="互联网观察日记">
+<meta property="og:description" content="这周五大组搞了个团建，虽然我没来多久，但也混了过去，免费过去玩，挺爽。虽然是团建，但并非是完全去玩，借用一位正职的话，“团建也是工作的一部分”，大致总结下团建后我的收获吧 酒桌文化赫赫，团建里必不可少的环节肯定是敬酒吧，这可是太经典了。本来我只是大家一起喝我也喝，后面有在想要不要像一些正职也敬一圈，结果也雀实这样干了。就那种罐装哈尔滨啤酒，反正就是喝，对着正职一个个敬。群里有头像和名字，有些也认得">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://bjm2re.github.io/images/bg.png">
+<meta property="article:published_time" content="2025-06-22T14:40:05.061Z">
+<meta property="article:modified_time" content="2025-06-22T15:15:03.553Z">
+<meta property="article:author" content="且慢">
+<meta property="article:tag" content="记录">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://bjm2re.github.io/images/bg.png"><link rel="shortcut icon" href="/img/butterfly-icon.png"><link rel="canonical" href="https://bjm2re.github.io/post/fa52f2ee.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.2.2"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
+          const mediaQueryLight = window.matchMedia('(prefers-color-scheme: light)')
+          
+          if (theme === undefined) {
+            if (mediaQueryLight.matches) activateLightMode()
+            else if (mediaQueryDark.matches) activateDarkMode()
+            else {
+              const hour = new Date().getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            mediaQueryDark.addEventListener('change', () => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else {
+            theme === 'light' ? activateLightMode() : activateDarkMode()
+          }
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: true,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '团建总结',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  isShuoshuo: false
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/images/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">22</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">24</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><span class="site-page group hide"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">互联网观察日记</span></a><a class="nav-page-title" href="/"><span class="site-name">团建总结</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><span class="site-page group hide"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">团建总结</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-06-22T14:40:05.061Z" title="发表于 2025-06-22 22:40:05">2025-06-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-06-22T15:15:03.553Z" title="更新于 2025-06-22 23:15:03">2025-06-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%B0%E5%BD%95/">记录</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">1.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>3分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><p>这周五大组搞了个团建，虽然我没来多久，但也混了过去，免费过去玩，挺爽。虽然是团建，但并非是完全去玩，借用一位正职的话，“团建也是工作的一部分”，大致总结下团建后我的收获吧</p>
+<h1 id="酒桌文化"><a href="#酒桌文化" class="headerlink" title="酒桌文化"></a>酒桌文化</h1><p>赫赫，团建里必不可少的环节肯定是敬酒吧，这可是太经典了。本来我只是大家一起喝我也喝，后面有在想要不要像一些正职也敬一圈，结果也雀实这样干了。就那种罐装哈尔滨啤酒，反正就是喝，对着正职一个个敬。群里有头像和名字，有些也认得，认不得的就只能让他们介绍了，反正是大致敬了一圈，喝了十罐左右吧，然后就歇菜了，歇了好久。旁边的正职是真猛，又 e 又能喝，后面还说我酒量还可以，那或许还可以吧。</p>
+<h1 id="团建也是工作的一部分"><a href="#团建也是工作的一部分" class="headerlink" title="团建也是工作的一部分"></a>团建也是工作的一部分</h1><p>唉，团建对于 i 人真不友好。后面强装 e 人对着敬酒，参与对话还是有点不好搞的，但总之也过去了。大体上通过敬酒，把组内人员基本认清了，如果说后面进组没多久就团建的话，还是需要敬一圈的，至少把人认齐。其次，和 mentor、leader 进行了一些有用的对话，还算可以。</p>
+<h1 id="关系？嫡系？"><a href="#关系？嫡系？" class="headerlink" title="关系？嫡系？"></a>关系？嫡系？</h1><p>团建的一大关键作用就是对话、搞关系吧。我对 leader 有一次敬酒的话是感谢他把我从二面里捞出来，后面他也表示是由于我们山河四省的同学（leader 是山东的）不容易，有这部分原因把我捞过来了。想来也是，我学长那个 offer 也有部分原因和他 leader 同省吧，这种地域关系其实加成还是有的。作为 leader，多少肯定是要搞自己势力、培养嫡系的，其中地域关系是一部分，还有就是对话吧。在团建中通过喝酒完成对话，喝的越多说的越多，越容易说出真心话，总之就是通过对话确认态度吧。期间，我个人觉得 leader 对于我的学历还是满意的，应当是有意培养我的，那个正职也是如此说的。</p>
+<h1 id="转正的可能性"><a href="#转正的可能性" class="headerlink" title="转正的可能性"></a>转正的可能性</h1><p>也是基于上面团建对话得出的结论。leader 对我说的话基本可以总结为：现在大环境不好，但是你们 92 学生也没那么容易就业了，但也还好。你总体还算优秀，只要你表现好我会向上面提申请的，但是你有什么想法一定要说，别后面给你发了 offer 不来，要给其他同学留机会。基本上这样，感觉还是比较有机会的，后面好好做需求表现吧</p>
+<h1 id="正职与外包-学历的作用？"><a href="#正职与外包-学历的作用？" class="headerlink" title="正职与外包 学历的作用？"></a>正职与外包 学历的作用？</h1><p>后面通过正职了解了，组内十多个正职，其中一半是外包。他说看 leader 应该有意培养我，毕竟学历还可以，而且是他招进来的，我肯定算是他的嫡系。不管我怎么想，别人肯定是这样觉得的。又和上面的有所交叉，总之又扯到搞关系、嫡系部分了。我 leader 将我招进来，多少肯定是希望我能好好表现，发 offer 就来组里，不要瞎搞。那位正职还说了一些相关的话，分为两点：一是要和 leader 搞好关系，因为你的绩效评价都是由 leader 写的，你作为 leader 的嫡系，不要因为别人借调就想着瞎跳，要和 leader 主动汇报，坚定站在 leader 那边；二是 leader 升迁你才有机会升迁，这个好理解，不管私企还是国企，一个萝卜一个坑，你 leader 不升你怎么升。这部分其实我之前也算想过，大致也理解，总结为两个字就是：忠与诚</p>
+<h1 id="未来规划"><a href="#未来规划" class="headerlink" title="未来规划"></a>未来规划</h1><p>正职还说，家里没钱的话还是来互联网搞几年攒点钱。这点我大致也是认同的，公务员 35 岁前都能考，虽然和应届毕业生相比，领导的重视程度不同。但对于公务员真没那么感冒。leader 和我说话时，也有问我要不要去考公，反正我也是否的。现在还是先赚点钱吧，就我们家里这条件。先在互联网里搞几年，虽然互联网红利基本没了，后续也就是前后端的选择，去大厂还是前端吧，我后端水准还是不太行。公司的话目前我也就美团、腾讯、京东、pdd 四个意向了，如果美团后面给我发 sp 及以上，我大概率会来，先幻想下吧</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://bjm2re.github.io">且慢</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://bjm2re.github.io/post/fa52f2ee.html">https://bjm2re.github.io/post/fa52f2ee.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://bjm2re.github.io" target="_blank">互联网观察日记</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%AE%B0%E5%BD%95/">记录</a></div><div class="post-share"><div class="social-share" data-image="/images/bg.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.4/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.4/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/post/ee365ac6.html" title="五月小结"><img class="cover" src="/images/bg.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">五月小结</div></div><div class="info-2"><div class="info-item-1">小说time从五一劳动节开始，为了打发时间找轻小说看去了。然后这差不多整个五月大部分时间都在看小说。于是在这个网站上的轻小说读后感也更新了不少。唉，真是颓废 实验室相关实验室老师布置的任务也没怎么做，后面还要给下一届的交接项目，但是感觉时间太短大概率是不能完全接下来的。后面实习的时候估计还是要做 课程相关就两门课。最后一周把其中一门课程的展示做完了。感觉选题还是挺有用的，选了个和ai无关的论文讲，然后两个助教就一个问了，问的问题还很简单。真舒适啊英语课下周也有个展示，这个还好。后面还有个考试。 实习相关唉，北京租房真贵啊。希望实习不要太难搞吧。后面考试还要请假回来考，害。真不爽啊 </div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/post/d87f7e0c.html" title="《假装失忆后勇者队伍对我执着》读后感"><img class="cover" src="/images/bg.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-05-05</div><div class="info-item-2">《假装失忆后勇者队伍对我执着》读后感</div></div><div class="info-2"><div class="info-item-1">...</div></div></div></a><a class="pagination-related" href="/post/9ef8fdbd.html" title="《勇者队伍的伙伴中似乎混入了魔王》读后感"><img class="cover" src="/images/bg.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-05-17</div><div class="info-item-2">《勇者队伍的伙伴中似乎混入了魔王》读后感</div></div><div class="info-2"><div class="info-item-1">也是点击量还算高的，看起来一般。作者写起来感觉有点流水账，剧情写的一般。后面剧情写的深了感觉也还一般，不知道后续怎么写吧。地址：https://books.fishhawk.top/novel/hameln/342528连载中  篇幅适中 梗概男主转生后正常生活，然后参与勇者小队，就是正常的勇者大战魔王故事。只是召唤男主的神和男主说小队里有魔王，可能会导致队伍、世界灭亡。后面又拓展世界观，又是经典的神的游戏，什么神可能是恶神，魔族被迫害……算是经典吧。剧情一般，只是看了后续继续看。 主要女主也是正常后宫，女主们对男主喜欢的理由感觉写的一般。尤其了初代魔王，大抵男主是魅魔吧。一般 个人感想纯纯打发时间看的，一般。 </div></div></div></a><a class="pagination-related" href="/post/fe9cbcfe.html" title="《在女人强大的世界里剑圣的儿子》读后感"><img class="cover" src="/images/bg.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-05-31</div><div class="info-item-2">《在女人强大的世界里剑圣的儿子》读后感</div></div><div class="info-2"><div class="info-item-1">应该是在残酷世界的tag搜到了，看起来总体还可以吧地址：https://books.fishhawk.top/novel/hameln/200891连载中 篇幅较短 梗概一个男人转生到一个男人软弱、女人坚强的世界，并且男主他妈是剑圣。而且女尊男弱，本来他妈不打算叫男主练剑的，后面耐不住男主还是教了。然后男主挂壁点很强也还正常。什么解决饿狼事件、教导妹妹练剑。再到与前任剑圣大战，导致身体严重受损卧床了。同时冬天又饥荒了，村长要搞弱者灭绝，男主他妈和妹妹出去接粮食，村里又出现猿猴灾害，男主又去解决（因为男主还有不死挂，身体损伤后面就好了），大致剧情就到这里…… 而且估计要着重强调魔剑的影响了 女主目前主要就是妹妹和那个订婚的了。妹妹对男主逐渐病娇化，又加入了 新的后宫角色（大概），看后面怎么写吧 个人看法还可以 </div></div></div></a><a class="pagination-related" href="/post/8ea58318.html" title="《和风路人战斗员》读后感"><img class="cover" src="/images/bg.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-05-09</div><div class="info-item-2">《和风路人战斗员》读后感</div></div><div class="info-2"><div class="info-item-1">五一看的第二本，这部还可以吧。和风、病娇、异世界奇幻战斗，总体看起来还可以，而且还是轻小说机翻网点击第一。地址：https://books.fishhawk.top/novel/hameln/232822 梗概这本的主要剧情就是男主穿越到了一个和风游戏的路人角色中，经历种种被病娇大小姐们爱上，并不断战斗的故事。后续剧情不断深入，感觉作者应该世界观构建的还可以，应该能写的不错。当初看的时候在想一个问题，由于男主并非是穿越到游戏的男主上，但是差不多拥有了男主的后宫，后面男主出场要怎么处理。结果作者把男主性转了，也成了后宫，行吧。 大致上时间顺序梳理下内容感觉会更好些幼年时间在村庄生活 -&gt;拥有灵力被鬼月家买作佣人（雏大小姐 -&gt;因和雏逃离被抓回来贬作下人众 -&gt;全力营救被家主设计杀害的葵大小姐 -&gt;成为葵小姐 下仆 -&gt;…………外出任务（遇青鬼  -&gt;上洛并解决白狐绮罗事件（小白狐、橘佳世  -&gt;上洛期间在地下水道遭遇地母神并被侵蚀（赤穗紫   -&gt;橘佳世绑架事件（橘佳世  -&gt;河童驱逐、白蜘蛛神格战斗（白若丸、鬼月蝴蝶 ...</div></div></div></a><a class="pagination-related" href="/post/df155a02.html" title="《反派贵族不想死，所以放弃成为四天王了》读后感"><img class="cover" src="/images/bg.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-05-14</div><div class="info-item-2">《反派贵族不想死，所以放弃成为四天王了》读后感</div></div><div class="info-2"><div class="info-item-1">这作也算是正常厕纸吧，搜反派贵族按点击排序第一就是这作，总体上还可以。剧情算是龙傲天吧，男主战力挺高的，许多战斗虽然稍微艰难，但其实还好。评价适中地址：https://books.fishhawk.top/novel/kakuyomu/16817330651994399896连载中   篇幅适中 梗概男主突然做了关于之前作为反派被杀死的梦，为了避免被杀结局，而不断行动的故事。第一章为了直接回避被杀事件去解决原作男主后宫之一的事件感觉还可以，解决领地贪腐事件、与海域怪物战斗，刻画的还可以。后续剧情也基本上是这样，但是剧情深度不断增加，又搞到了众神游戏这一经典剧情上，后续应该是为了毁灭暗之神而行动，只是好奇具体方针是什么。原来六神的方案应该是被否了 主要女主还是第一个刻画的女主不错。后宫角色也不少，但是男主还好吧，对待恋爱还算认真，没那么花心轻浮，总体观感还好 个人看法由于这个也是反派，所以就比较好奇原作男主的刻画。这作选择的是让女玩家魂穿原作男主，希望大家都过上he，没有开后宫（百合bushi）的想法。所以也解决了这个问题。 </div></div></div></a><a class="pagination-related" href="/post/57e3a3ea.html" title="《恶女矫正计划》读后感"><img class="cover" src="/images/bg.png" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-05-31</div><div class="info-item-2">《恶女矫正计划》读后感</div></div><div class="info-2"><div class="info-item-1">在komiic看到了漫画，感觉还可以，去绿站搜了下就找到，总体看下来还可以。地址：https://books.fishhawk.top/novel/syosetu/n9370hz完结...</div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/images/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">且慢</div><div class="author-info-description">Avid</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">22</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">24</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">4</div></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">In this Craziness, Uncertainty</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%85%92%E6%A1%8C%E6%96%87%E5%8C%96"><span class="toc-number">1.</span> <span class="toc-text">酒桌文化</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%A2%E5%BB%BA%E4%B9%9F%E6%98%AF%E5%B7%A5%E4%BD%9C%E7%9A%84%E4%B8%80%E9%83%A8%E5%88%86"><span class="toc-number">2.</span> <span class="toc-text">团建也是工作的一部分</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B3%E7%B3%BB%EF%BC%9F%E5%AB%A1%E7%B3%BB%EF%BC%9F"><span class="toc-number">3.</span> <span class="toc-text">关系？嫡系？</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BD%AC%E6%AD%A3%E7%9A%84%E5%8F%AF%E8%83%BD%E6%80%A7"><span class="toc-number">4.</span> <span class="toc-text">转正的可能性</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%AD%A3%E8%81%8C%E4%B8%8E%E5%A4%96%E5%8C%85-%E5%AD%A6%E5%8E%86%E7%9A%84%E4%BD%9C%E7%94%A8%EF%BC%9F"><span class="toc-number">5.</span> <span class="toc-text">正职与外包 学历的作用？</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%AA%E6%9D%A5%E8%A7%84%E5%88%92"><span class="toc-number">6.</span> <span class="toc-text">未来规划</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/post/fa52f2ee.html" title="团建总结"><img src="/images/bg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="团建总结"/></a><div class="content"><a class="title" href="/post/fa52f2ee.html" title="团建总结">团建总结</a><time datetime="2025-06-22T14:40:05.061Z" title="发表于 2025-06-22 22:40:05">2025-06-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/ee365ac6.html" title="五月小结"><img src="/images/bg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="五月小结"/></a><div class="content"><a class="title" href="/post/ee365ac6.html" title="五月小结">五月小结</a><time datetime="2025-05-31T11:22:10.042Z" title="发表于 2025-05-31 19:22:10">2025-05-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/fe9cbcfe.html" title="《在女人强大的世界里剑圣的儿子》读后感"><img src="/images/bg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="《在女人强大的世界里剑圣的儿子》读后感"/></a><div class="content"><a class="title" href="/post/fe9cbcfe.html" title="《在女人强大的世界里剑圣的儿子》读后感">《在女人强大的世界里剑圣的儿子》读后感</a><time datetime="2025-05-30T16:46:29.470Z" title="发表于 2025-05-31 00:46:29">2025-05-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/69badbd1.html" title="《矫正学院恶女》读后感"><img src="/images/bg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="《矫正学院恶女》读后感"/></a><div class="content"><a class="title" href="/post/69badbd1.html" title="《矫正学院恶女》读后感">《矫正学院恶女》读后感</a><time datetime="2025-05-30T16:14:55.420Z" title="发表于 2025-05-31 00:14:55">2025-05-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/post/57e3a3ea.html" title="《恶女矫正计划》读后感"><img src="/images/bg.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="《恶女矫正计划》读后感"/></a><div class="content"><a class="title" href="/post/57e3a3ea.html" title="《恶女矫正计划》读后感">《恶女矫正计划》读后感</a><time datetime="2025-05-30T16:01:01.212Z" title="发表于 2025-05-31 00:01:01">2025-05-31</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2025 By 且慢</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">sowrd art</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.2.2"></script><script src="/js/main.js?v=5.2.2"></script><div class="js-pjax"></div><script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script><div class="aplayer no-destroy" data-id="2018064274" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false" data-lrcType="-1"> </div><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.4/dist/click-heart.min.js" async="async" mobile="false"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.4/metingjs/dist/Meting.min.js"></script><script>(() => {
+  const destroyAplayer = () => {
+    if (window.aplayers) {
+      for (let i = 0; i < window.aplayers.length; i++) {
+        if (!window.aplayers[i].options.fixed) {
+          window.aplayers[i].destroy()
+        }
+      }
+    }
+  }
+
+  const runMetingJS = () => {
+    typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+  }
+
+  btf.addGlobalFn('pjaxSend', destroyAplayer, 'destroyAplayer')
+  btf.addGlobalFn('pjaxComplete', loadMeting, 'runMetingJS')
+})()</script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script>(() => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => fn())
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      pjax.loadUrl('/404.html')
+    }
+  })
+})()</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.2.2"></script></div></div></body></html>
